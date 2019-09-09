@@ -10,7 +10,7 @@ use Doctrine\DBAL\Driver\ExceptionConverterDriver;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\VersionAwarePlatformDriver;
 
-class StaticDriver implements Driver, ExceptionConverterDriver, VersionAwarePlatformDriver
+class StaticDriver implements Driver
 {
     /**
      * @var Connection[]
